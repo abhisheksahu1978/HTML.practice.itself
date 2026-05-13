@@ -1,0 +1,119 @@
+.navbar nav{
+    top: 0%;
+    padding: 0%;
+    position: fixed;
+    background-color:black;
+    height:100px;
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar nav a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 0%;
+    padding-left: 15%;
+    text-align: center;
+    justify-content: center;
+}
+#flipkart{
+    margin-top: 8%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    border:3px;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(227, 221, 59);
+    text-align: center;
+    border-radius: 15px;
+}
+#mentra{
+    margin-top: 7%;
+    margin-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    border:3px;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(241, 45, 140);
+    text-align: center;
+    border-radius: 15px;
+}
+#messo{
+    margin-top: 8%;
+    margin-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    border:3px;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(159, 33, 33);
+    text-align: center;
+    border-radius: 15px;
+}
+#amazon{
+    margin-top: 7%;
+    margin-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    border:3px;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(162, 150, 128);
+    text-align: center;
+    border-radius: 15px;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.animated-bg {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: fixed;
+    z-index: -1;
+}
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+
+}
+.box {
+    transition: transform 0.5s ease; 
+    cursor: pointer; 
+}
+.box:hover {
+    transform: scale(1.1); 
+    z-index: 10; 
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3); 
+}
+.parent-container {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    gap: 20px;                
+    flex-wrap: wrap;           
+    padding: 20px;            
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
